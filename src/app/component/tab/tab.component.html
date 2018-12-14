@@ -1,0 +1,8 @@
+<main class="main_content_nav">
+  <nav mat-tab-nav-bar class="mat-tab-nav-bar">
+    <a mat-tab-link *ngFor="let link of links"
+       (click)="active = link;"
+       [class.active]="active == link" routerLink="{{link.path}}"> {{link.menu}} </a>
+  </nav>
+  <router-outlet></router-outlet>
+</main>

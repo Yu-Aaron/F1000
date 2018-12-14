@@ -1,0 +1,30 @@
+.active {
+  background-color: black;
+  color: #fff;
+}
+.mat-list-base {
+  float: left;
+  width: 190px;
+  text-align: center;
+  background: #262626;
+  height: 100%;
+  .mat-list-item {
+    line-height: 48px;
+    .mat-list-item-content {
+      padding-right: 0px;
+    }
+  }
+}
+.mat-list-base .mat-list-item .mat-list-item-content, .mat-list-base .mat-list-option .mat-list-item-content {
+  padding : 0;
+}
+a {
+  font-size: 18px !important;
+  color: #ffffff;
+  &:hover, &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    background: black;
+  }
+}

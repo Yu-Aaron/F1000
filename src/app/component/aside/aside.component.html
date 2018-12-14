@@ -1,0 +1,13 @@
+<!--<div>-->
+  <!--<ul>-->
+    <!--<li *ngFor="let menu of menuList">-->
+      <!--<a routerLink="{{menu.path}}" routerLinkActive="active">{{menu.menu}}</a>-->
+    <!--</li>-->
+  <!--</ul>-->
+<!--</div>-->
+<mat-list>
+  <mat-list-item *ngFor="let menu of menuList">
+    <a mat-line routerLink="{{menu.path}}" routerLinkActive="active">{{menu.menu}}</a>
+  </mat-list-item>
+</mat-list>
+
